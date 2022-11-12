@@ -6,7 +6,9 @@ Programa: Bioingeniería
 
 Link de los datos usados: https://www.kaggle.com/competitions/champs-scalar-coupling/data
 
-Para obtener los datos se debe descargar toda la data de la competición del link anterior en el botón "Download all"
 Para cargar los datos a colab es necesario obtener un archivo llamado kaggle.json, el cuál se descarga siguiendo la siguiente ruta:
-Ir al perfil público, ingresar a la sección "Account" y en la parte de API oprimir el botón de "Create New API Token"
-Al momento de ejecutar el código se pide que el usuario elija en sus archivos el kaggle.json para que se permita cargar los datos al colab
+Loguearse a la cuenta de Kaggle o crear una cuenta en caso de que no se tenga.
+Ir al perfil público, ingresar a la sección "Account" y en la parte de API oprimir el botón de "Create New API Token".
+Al oprimir este botón, el archivo kaggle.json se descargará. Se procede a ejecutar las celdas del archivo en colab.
+Al ejecutar la línea de código "files.upload()" se pide que el usuario elija el archivo kaggle.json para que se permita cargar los datos al colab.
+Al ejecutar las siguientes dos celdas, se cargan todos los archivos del dataset a la sesión de colab sin tener que descargarlos localmente.
